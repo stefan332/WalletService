@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletService", "WalletService.csproj", "{7BD07BE2-6C7E-410F-B48E-BB39577C53F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalletService", "WalletService.csproj", "{7BD07BE2-6C7E-410F-B48E-BB39577C53F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "..\DAL\DAL.csproj", "{BD5AB81C-03FC-41EB-BB88-1ED2BE7A0816}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\Data\Data.csproj", "{4CA4D182-3896-4CCB-BFCB-6104D0C3F6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "..\BAL\BAL.csproj", "{3B1DCABF-BFD4-4CAB-8926-848813EFE6F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "..\Shared\Shared.csproj", "{7C2382F0-F2A5-487F-A66C-5219EC08CC2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizaionPolcies", "..\AuthorizaionPolcies\AuthorizaionPolcies.csproj", "{B735D8B7-9E0C-45B1-8BEB-B1A8741CE290}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{7BD07BE2-6C7E-410F-B48E-BB39577C53F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BD07BE2-6C7E-410F-B48E-BB39577C53F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BD07BE2-6C7E-410F-B48E-BB39577C53F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5AB81C-03FC-41EB-BB88-1ED2BE7A0816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5AB81C-03FC-41EB-BB88-1ED2BE7A0816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5AB81C-03FC-41EB-BB88-1ED2BE7A0816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5AB81C-03FC-41EB-BB88-1ED2BE7A0816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA4D182-3896-4CCB-BFCB-6104D0C3F6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA4D182-3896-4CCB-BFCB-6104D0C3F6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA4D182-3896-4CCB-BFCB-6104D0C3F6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA4D182-3896-4CCB-BFCB-6104D0C3F6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1DCABF-BFD4-4CAB-8926-848813EFE6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1DCABF-BFD4-4CAB-8926-848813EFE6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1DCABF-BFD4-4CAB-8926-848813EFE6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1DCABF-BFD4-4CAB-8926-848813EFE6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2382F0-F2A5-487F-A66C-5219EC08CC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2382F0-F2A5-487F-A66C-5219EC08CC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2382F0-F2A5-487F-A66C-5219EC08CC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2382F0-F2A5-487F-A66C-5219EC08CC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B735D8B7-9E0C-45B1-8BEB-B1A8741CE290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B735D8B7-9E0C-45B1-8BEB-B1A8741CE290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B735D8B7-9E0C-45B1-8BEB-B1A8741CE290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B735D8B7-9E0C-45B1-8BEB-B1A8741CE290}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
